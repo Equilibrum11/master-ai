@@ -95,7 +95,9 @@
       "Bash(git push:*)",
       "Bash(git filter-branch:*)",
       "Bash(git reset:*)",
-      "Bash(git checkout:*)"
+      "Bash(git checkout:*)",
+      "Bash(git branch:*)",
+      "Bash(git rm:*)"
     ],
     "deny": [],
     "ask": []
