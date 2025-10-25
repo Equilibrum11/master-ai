@@ -1,0 +1,1076 @@
+﻿{
+  "version": "1.0",
+  "language": "Romanian",
+  "created": "2025-10-24 22:14:54 UTC",
+  "stopwords": [
+    "eu",
+    "tu",
+    "el",
+    "ea",
+    "noi",
+    "voi",
+    "ei",
+    "ele",
+    "mine",
+    "tine",
+    "lui",
+    "nou\u0103",
+    "vou\u0103",
+    "lor",
+    "mie",
+    "\u021Bie",
+    "\u00EEmi",
+    "\u00EE\u021Bi",
+    "\u00EE\u0219i",
+    "ne",
+    "v\u0103",
+    "se",
+    "un",
+    "o",
+    "al",
+    "ai",
+    "ale",
+    "unei",
+    "unui",
+    "celui",
+    "celei",
+    "celor",
+    "de",
+    "la",
+    "cu",
+    "\u00EEn",
+    "din",
+    "pe",
+    "pentru",
+    "c\u0103tre",
+    "spre",
+    "p\u00E2n\u0103",
+    "dup\u0103",
+    "\u00EEnainte",
+    "asupra",
+    "dintr",
+    "dintre",
+    "deasupra",
+    "dedesubt",
+    "\u00EEnaintea",
+    "\u00EEn\u0103untru",
+    "afar\u0103",
+    "l\u00E2ng\u0103",
+    "printre",
+    "contra",
+    "\u0219i",
+    "sau",
+    "dar",
+    "c\u0103",
+    "dac\u0103",
+    "c\u00E2nd",
+    "unde",
+    "cum",
+    "ce",
+    "care",
+    "c\u0103ci",
+    "de\u0219i",
+    "deoarece",
+    "fiindc\u0103",
+    "\u00EEns\u0103",
+    "ori",
+    "precum",
+    "ca",
+    "acest",
+    "aceast\u0103",
+    "acestui",
+    "acestei",
+    "ace\u0219ti",
+    "aceste",
+    "acelor",
+    "acel",
+    "acea",
+    "acela",
+    "aceea",
+    "cel",
+    "cea",
+    "cei",
+    "cele",
+    "foarte",
+    "mai",
+    "doar",
+    "numai",
+    "\u00EEnc\u0103",
+    "deja",
+    "aproape",
+    "destul",
+    "prea",
+    "tot",
+    "toat\u0103",
+    "to\u021Bi",
+    "toate",
+    "at\u00E2t",
+    "c\u00E2t\u0103",
+    "c\u00E2\u021Bi",
+    "c\u00E2te",
+    "aici",
+    "acolo",
+    "acum",
+    "atunci",
+    "ieri",
+    "m\u00E2ine",
+    "ast\u0103zi",
+    "am",
+    "are",
+    "a",
+    "avea",
+    "avem",
+    "ave\u021Bi",
+    "au",
+    "fost",
+    "fi",
+    "fiind",
+    "fie",
+    "fiu",
+    "fii",
+    "sunt",
+    "e\u0219ti",
+    "este",
+    "suntem",
+    "sunte\u021Bi",
+    "eram",
+    "erai",
+    "era",
+    "era\u021Bi",
+    "erau",
+    "va",
+    "vom",
+    "ve\u021Bi",
+    "vor",
+    "cine",
+    "carui",
+    "c\u0103ruia",
+    "c\u0103reia",
+    "c\u0103rora",
+    "cui",
+    "meu",
+    "mea",
+    "mei",
+    "mele",
+    "t\u0103u",
+    "ta",
+    "t\u0103i",
+    "tale",
+    "s\u0103u",
+    "sa",
+    "s\u0103i",
+    "sale",
+    "nostru",
+    "noastr\u0103",
+    "no\u0219tri",
+    "noastre",
+    "vostru",
+    "voastr\u0103",
+    "vo\u0219tri",
+    "voastre",
+    "nu",
+    "nici",
+    "n",
+    "nimic",
+    "nimeni",
+    "nic\u0103ieri",
+    "niciodat\u0103",
+    "da",
+    "ba",
+    "doi",
+    "dou\u0103",
+    "trei",
+    "patru",
+    "cinci",
+    "mult",
+    "mult\u0103",
+    "mul\u021Bi",
+    "multe",
+    "pu\u021Bin",
+    "pu\u021Bin\u0103",
+    "pu\u021Bini",
+    "pu\u021Bine",
+    "c\u00E2\u021Biva",
+    "c\u00E2teva",
+    "fiecare",
+    "am\u00E2ndoi",
+    "ambele",
+    "pot",
+    "po\u021Bi",
+    "poate",
+    "putem",
+    "pute\u021Bi",
+    "putea",
+    "vreau",
+    "vrei",
+    "vrea",
+    "vrem",
+    "vre\u021Bi",
+    "a vrea",
+    "trebuie",
+    "trebuia",
+    "adic\u0103",
+    "altfel",
+    "anume",
+    "a\u0219adar",
+    "astfel",
+    "deci",
+    "dimpotriv\u0103",
+    "iat\u0103",
+    "parc\u0103",
+    "bine",
+    "poftim",
+    "hai"
+  ],
+  "synonyms": {
+    "locuin\u021B\u0103": "casa",
+    "cas\u0103": "casa",
+    "re\u0219edin\u021B\u0103": "casa",
+    "fericit": "vesel",
+    "bucuros": "vesel",
+    "\u00EEnc\u00E2ntat": "vesel",
+    "spa\u021Bios": "mare",
+    "vast": "mare",
+    "amplu": "mare",
+    "pl\u0103cut": "frumos",
+    "dr\u0103gu\u021B": "frumos",
+    "atr\u0103g\u0103tor": "frumos",
+    "rapid": "repede",
+    "iute": "repede",
+    "gr\u0103bit": "repede",
+    "important": "esential",
+    "crucial": "esential",
+    "vital": "esential",
+    "excelent": "bun",
+    "minunat": "bun",
+    "extraordinar": "bun"
+  },
+  "lemmatization_rules": [
+    {
+      "suffix": "ie",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "iune",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "aj",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "agiu",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "or",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "oriu",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ul",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ol",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ici",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "iciu",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "e",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "uri",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "abil",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ibil",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ubil",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "bil",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ace",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "aie",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "al",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ar",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "\u021Bial",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "\u021Bional",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "an",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ean",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ian",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "andru",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ant",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ent",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "an\u021B\u0103",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "en\u021B\u0103",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "in\u021B\u0103",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ar",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ard",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "are",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ere",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ire",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "arh",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "arhie",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "at",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "et",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "it",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ut",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "atru",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "a\u021Bie",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "autic\u0103",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "eutic\u0103",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "az\u0103",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ez\u0103",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "iz\u0103",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "bilitate",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "cefal",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ces",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "cid",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "crat",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "cra\u021Bie",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "cron",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "cul",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "cul\u0103",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "dent",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "dinte",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ea",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "eag",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "iag",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "og",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "eal\u0103",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ean",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ian",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ee",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "enie",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "esc",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "e\u0219te",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "estru",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "et",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "et\u0103",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "e\u021B",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "e\u021Be",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "eu",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "e",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "euri",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "fag",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "vor",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "fer",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "fil",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "filie",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "fob",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "fon",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "fono",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "fonie",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "form",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "fug",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "gen",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "genie",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "graf",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "grafie",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ibilitate",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "scopie",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "abil",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ibil",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "bil",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ic",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ace",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ie",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "at",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ier",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ier\u0103",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ie",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "il",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ime",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "im",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "in",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "iot",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ire",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ism",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ist",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ian",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ic",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "nom",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "log",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ism",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ic\u0103",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ie",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "lni\u021B\u0103",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "rni\u021B\u0103",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "i\u0219",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "i\u0219te",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "itudine",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "tudine",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "i\u021B\u0103",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "u\u021B\u0103",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "iv",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "log",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "gie",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "logo",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ped",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "gog",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "m\u00E2nt",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "morf",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "nic",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "onim",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "oar",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "uar",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "oare",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "oare",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "or",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "oriu",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "tor",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "os",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "tate",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "\u021Bial",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "\u021Bional",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "al",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "tur\u0103",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ui",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "iu",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ual",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "uu",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ii",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "iu",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "iile",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "u\u021B",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "iii",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "i\u021B\u0103",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "ic\u0103",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "uc\u0103",
+      "replacement": "",
+      "minLength": 3
+    },
+    {
+      "suffix": "u\u021B\u0103",
+      "replacement": "",
+      "minLength": 3
+    }
+  ],
+  "wordlist_count": 184698
+}

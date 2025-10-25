@@ -1,0 +1,58 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Compression UI",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-ui",
+            "program": "${workspaceFolder}/compression-app/Compression-UI/bin/Debug/net9.0-windows/Compression-UI.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/compression-app/Compression-UI",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Launch Compression Worker (CLI)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-worker",
+            "program": "${workspaceFolder}/compression-app/Compression-Worker/bin/Debug/net9.0/Compression-Worker.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/compression-app/Compression-Worker",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Compress File (Worker CLI)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-worker",
+            "program": "${workspaceFolder}/compression-app/Compression-Worker/bin/Debug/net9.0/Compression-Worker.dll",
+            "args": [
+                "-m", "compress",
+                "-i", "../Tests/romanian_test_1MB.txt",
+                "-o", "output.cmp",
+                "-s", "fast"
+            ],
+            "cwd": "${workspaceFolder}/compression-app/Compression-Worker",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Decompress File (Worker CLI)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-worker",
+            "program": "${workspaceFolder}/compression-app/Compression-Worker/bin/Debug/net9.0/Compression-Worker.dll",
+            "args": [
+                "-m", "decompress",
+                "-i", "output.cmp",
+                "-o", "decompressed.txt"
+            ],
+            "cwd": "${workspaceFolder}/compression-app/Compression-Worker",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "compression-app": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
