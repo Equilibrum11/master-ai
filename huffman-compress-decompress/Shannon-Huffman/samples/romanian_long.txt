@@ -1,0 +1,27 @@
+Teoria Informației și Compresia Datelor
+
+Teoria informației, dezvoltată de Claude Shannon în anul 1948, a revoluționat înțelegerea noastră despre comunicațiile moderne și procesarea datelor. Această teorie fundamentală a pus bazele pentru dezvoltarea algoritmilor de compresie, care sunt esențiali în era digitală contemporană.
+
+Algoritmii de Compresie
+
+Există mai multe metode de compresie a datelor, fiecare cu avantaje și dezavantaje specifice. Algoritmul Huffman, inventat de David A. Huffman în 1952, este un algoritm de compresie fără pierderi care construiește un arbore binar optimal prin combinarea repetată a nodurilor cu frecvențele cele mai mici. Acest algoritm este demonstrabil optim pentru compresia bazată pe caractere individuale.
+
+Shannon-Fano, dezvoltat independent de Claude Shannon și Robert Fano, este un alt algoritm de compresie care împarte recursiv caracterele în grupuri aproximativ egale bazate pe frecvențele cumulative. Deși nu este întotdeauna optim ca Huffman, Shannon-Fano produce rezultate foarte apropiate și are avantajul unei implementări ușor mai simple în anumite contexte.
+
+Limba Română și Caracteristicile Sale
+
+Limba română prezintă caracteristici unice care o fac interesantă pentru studiul compresiei textuale. Cu cele cinci diacritice specifice (ă, â, î, ș, ț), limba română are o entropie distinctă comparativ cu alte limbi romanice. Frecvența literelor în textele românești arată că vocalele sunt foarte comune, în special 'e', 'a', și 'i', urmate de consoanele 'r', 't', 'n', și 's'.
+
+Redundanța în Limbajul Natural
+
+Studiile lingvistice demonstrează că limbajul natural conține aproximativ 60-70% redundanță. Această redundanță provine din mai multe surse: restricții gramaticale, colocații uzuale, cuvinte funcționale frecvente (articole, prepoziții, conjuncții), și terminații predictibile ale cuvintelor. Algoritmii de compresie exploatează această redundanță pentru a reduce spațiul de stocare necesar.
+
+Aplicații Practice
+
+Compresia datelor are aplicații vaste în lumea modernă: stocarea fișierelor (ZIP, RAR), transmisiunea imaginilor (JPEG, PNG), streaming-ul video (H.264, H.265), comunicațiile mobile, arhivarea documentelor, și optimizarea traficului web. Fără algoritmi de compresie eficienți, internetul modern așa cum îl cunoaștem nu ar putea funcționa.
+
+Echivalența Algoritmilor
+
+Un aspect fascinant al algoritmilor de compresie fără pierderi este că, deși metodele de construire a arborilor difere, rezultatul final al decompresiei este întotdeauna identic cu textul original. Această proprietate de reversibilitate perfectă este esențială pentru aplicațiile unde pierderea datelor nu este acceptabilă, cum ar fi compresia textelor, a codului sursă, sau a documentelor importante.
+
+În concluzie, teoria informației și algoritmii de compresie reprezentă o realizare remarcabilă a științei computerelor, combinând matematica, lingvistica, și ingineria pentru a optimiza stocarea și transmisiunea informației în era digitală.

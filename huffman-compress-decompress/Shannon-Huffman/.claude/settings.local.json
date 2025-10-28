@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Projects/CSharp/Equilibrum11/master-ai/huffman-compress-decompress/**)",
+      "Read(//c/Projects/CSharp/Equilibrum11/master-ai/**)",
+      "Bash(dir /B)",
+      "Bash(python Shannon_Huffman.py cli demo:*)",
+      "Bash(python:*)",
+      "Bash(awk:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
